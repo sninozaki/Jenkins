@@ -1,0 +1,100 @@
+﻿<repository
+id="ebf88d64-e8ca-472a-9f8a-2c6cff1194bd"
+name="tuda_hei_8_50_4Repository">
+	<codegen
+	classname="tuda_hei_8_50_4Repository"
+	namespace="tuda_hei_8_50_4">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="42180949-a13c-456b-8d6d-7acae2a86ab6"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="16bd6cfa-47f0-4899-9c07-478a47b6e47e"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,tabletag"
+			capname="tabletag"
+			id="12899f80-5a44-46b5-bc92-35380629fd69"
+			name="SomeTableTag"
+			refimgid="bc9c4f9b-e2ac-4d1a-8a12-fd965fee3cb8"
+			refpath="/dom[@domain='sel.jpn.org']/body/table"
+			searchtimeout="30000ms">
+				/dom[@domain='sel.jpn.org']/?/?/table
+			</item>
+			<folder
+			addcaps="unknown,webelement,formtag"
+			capname="form"
+			id="bce62290-e7bc-4887-84e6-5e9106a1834d"
+			isrooted="True"
+			name="HttpsSelJpnOrgCitweb2020PMETeam"
+			refpath="/dom[@domain='sel.jpn.org']/body/form[@action='https://sel.jpn.org/citweb/2020-PME-TeamA/result_tsudanuma.php']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="97852941-6eac-458e-95fc-bd6d94574fbf"
+				name="Selecteddate"
+				refimgid="640ba716-229b-4acc-a1de-07350c849572"
+				refpath="/dom[@domain='sel.jpn.org']/body/form/div[2]/input[@name='selecteddate']"
+				searchtimeout="30000ms">
+					/dom[@domain='sel.jpn.org']/?/?/form[@action='https://sel.jpn.org/citweb/2020-PME-TeamA/result_tsudanuma.php']/?/?/input[@name='selecteddate']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="22abc6dc-785a-4b5c-b30c-0a643680babc"
+				name="Selectedtime"
+				refimgid="5368e88e-bda0-429b-9ac8-68e979770092"
+				refpath="/dom[@domain='sel.jpn.org']/body/form/div[3]/input[@name='selectedtime']"
+				searchtimeout="30000ms">
+					/dom[@domain='sel.jpn.org']/?/?/form[@action='https://sel.jpn.org/citweb/2020-PME-TeamA/result_tsudanuma.php']/?/?/input[@name='selectedtime']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="55c11f7d-a7cd-485b-b71d-83d09d3571af"
+				name="Submit"
+				refimgid="8f77e75c-e0a0-4463-918b-4ed0e0328c15"
+				refpath="/dom[@domain='sel.jpn.org']/body/form/div[4]/input[@type='submit']"
+				searchtimeout="30000ms">
+					/dom[@domain='sel.jpn.org']/?/?/form[@action='https://sel.jpn.org/citweb/2020-PME-TeamA/result_tsudanuma.php']/?/?/input[@type='submit']
+				</item>
+				<basepath>
+					/dom[@domain='sel.jpn.org']/?/?/form[@action='https://sel.jpn.org/citweb/2020-PME-TeamA/result_tsudanuma.php']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='sel.jpn.org']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
