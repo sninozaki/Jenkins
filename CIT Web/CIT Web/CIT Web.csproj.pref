@@ -1,0 +1,11 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="CIT_Web.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="CIT_Web.rxtst" />
+    <Element value="Recording1.rxrec" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>
