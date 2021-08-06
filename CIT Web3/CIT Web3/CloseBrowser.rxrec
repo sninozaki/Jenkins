@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7c04de3f-8e30-4e52-9e27-bb838bff5b37"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="CIT_Web3">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="29accffb-0e95-4f6d-b52c-a288c5232834">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="84708a3f-dff5-404a-b75a-b336f3928a9f"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="579e53b5-c112-4f4b-8d28-17767699bf63"
+	name="CIT_Web3Repository"
+	relativepath="CIT_Web3Repository.rxrep">
+		<codegen
+		classname="CIT_Web3Repository"
+		namespace="CIT_Web3">
+		</codegen>
+		<rootfolder
+		id="e6206a2d-c9f7-4b28-b3e1-2d2d702c6d73"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
