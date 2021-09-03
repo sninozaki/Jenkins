@@ -1,0 +1,11 @@
+C:\Users\ogasawara-lab\Documents\Ranorex\RanorexStudio Projects\citweb\citweb\bin\Debug\citweb.rxtmg
+C:\Users\ogasawara-lab\Documents\Ranorex\RanorexStudio Projects\citweb\citweb\bin\Debug\citweb.rxtst
+C:\Users\ogasawara-lab\Documents\Ranorex\RanorexStudio Projects\citweb\citweb\bin\Debug\citweb.exe.config
+C:\Users\ogasawara-lab\Documents\Ranorex\RanorexStudio Projects\citweb\citweb\bin\Debug\citweb.xml
+C:\Users\ogasawara-lab\Documents\Ranorex\RanorexStudio Projects\citweb\citweb\bin\Debug\citweb.exe
+C:\Users\ogasawara-lab\Documents\Ranorex\RanorexStudio Projects\citweb\citweb\bin\Debug\citweb.pdb
+C:\Users\ogasawara-lab\Documents\Ranorex\RanorexStudio Projects\citweb\citweb\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\ogasawara-lab\Documents\Ranorex\RanorexStudio Projects\citweb\citweb\bin\Debug\ja\Ranorex.Core.Resolver.resources.dll
+C:\Users\ogasawara-lab\Documents\Ranorex\RanorexStudio Projects\citweb\citweb\obj\x86\Debug\citweb.csprojResolveAssemblyReference.cache
+C:\Users\ogasawara-lab\Documents\Ranorex\RanorexStudio Projects\citweb\citweb\obj\x86\Debug\citweb.exe
+C:\Users\ogasawara-lab\Documents\Ranorex\RanorexStudio Projects\citweb\citweb\obj\x86\Debug\citweb.pdb

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="citweb"
+      id="9578526b-cf8d-482c-9301-3c1542ce08fd"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="citweb"
+      id="9578526b-cf8d-482c-9301-3c1542ce08fd"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

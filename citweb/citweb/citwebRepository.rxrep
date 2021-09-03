@@ -1,0 +1,157 @@
+﻿<repository
+id="7615a722-6c6e-47e6-afa6-cb1df37e1b39"
+name="citwebRepository">
+	<codegen
+	classname="citwebRepository"
+	namespace="citweb">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="be8a31f7-5c66-411f-8b28-21eb2948ec8f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="87d71658-4c69-4db0-afb5-a459581f1680"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="36092fd2-7066-45bc-a9db-c57faacd6df5"
+			name="大学案内"
+			refimgid="9228c708-1c06-4680-a19e-287b7c5b8a0b"
+			refpath="/dom[@domain='www.it-chiba.ac.jp']//div[#'gnavi']/nav/ul/li[1]/a/span[@innertext='大学案内']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.it-chiba.ac.jp']//div[#'gnavi']/nav//span[@innertext='大学案内']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="89914804-5db3-4797-bbf5-f532858b219e"
+			name="大学案内1"
+			refimgid="040fa2ea-e274-4d52-81de-4b8344b8ab94"
+			refpath="/dom[@domain='www.it-chiba.ac.jp']//div[#'main']/div[1]/div/h1[@innertext='大学案内']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.it-chiba.ac.jp']//div[#'main']//h1[@innertext='大学案内']
+			</item>
+			<basepath>
+				/dom[@domain='www.it-chiba.ac.jp']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="b86ae4c4-2ec4-48e8-97c2-44981242acef"
+		isrooted="True"
+		name="千葉工業大学GoogleChrome"
+		refpath="/form[@title='千葉工業大学 - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="48dcc0f5-2cf2-4f15-8ac4-ea27a9fecebf"
+			name="Element804915744"
+			refimgid="ff28484c-9dc1-4b18-ab96-d8704d40d4d3"
+			refpath="/form[@title='千葉工業大学 - Google Chrome']/element[@controlid='804915744']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='千葉工業大学 - Google Chrome']/element[@controlid='804915744']
+			</item>
+			<basepath>
+				/form[@title='千葉工業大学 - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANfSURBVDhPrZJdTFJhGMfP+ryoObNQs1qulaVb
+H8407PAlBzU0DBAslUjWtFWWXbS8yWgrymiZXmQ5FbHC1oeUmTpDsyxIBNtatshzyIo2XR/LSAOE
+89ThyEVbt/23Z+/N+/v93+19kP8WNYLMUickLHRIM9b1Z3HKe7axWk2ZLKtJsHXIhKV2PBYwT9kF
+KLMmZXWYHEFmh7CZBOEDCQnRfdncXU6ZsIPIzXxHSNPdhFgwTezA/CM5aZO4iOcayeY+svCZ+8rW
+rozlcrlzQjiCUPDCO0L2zjfSDLszN9OLS9NJXCwAXIyRhASbHhHzpvEcrm9ExJnCt7NGrRnJ+zWb
+VjNCOIJINfnrtGXiDqtM4KXagRIALskAvGD7NHFY8pEo4TvxvWyCULFxQsXCiSK0/W1eKue3Wj2L
+FsRd2Fku0+Q5DfkY+VqEgaO0GKy116H1hp003HrptbQZPe/uHPJ8vYF5Jm5zPD+N7LFPBrSqT5sc
+TQtWnJcZE2t3u0uPiqA/hwfmS1dBq3NC8ZUJKKp1Q8U1Fzx70gaTA7vAP4BRk+Yd72b1DTZsXksL
+YrSywVidyo9WF4J+TxY0t9hoOPucG4SVbsir/gH6Lgd8sx8E0pYOpD0tMP4QdQw0pmykBVFa6YsV
+elUgrrEIlGcUcME4DKrLbsii4KAgt8oNdQ+c8MV2eEZgSyPHulHC2pS8iRZEaiUdMXrl1HLdHohv
+UJLnTH1TR66O+4PNQXh//ZdA51Pz1OQLpZ+08YMC39hD1PK8eUs8LWBUSU5F65WuaJ0SljYpQXS3
+0l/e1UOeuIfD8dZRuNLdT76yarw+e3aAgoOC75972XVDLVtjaEFEbR4zqlnZE6lT+KiB5XoVbDCU
+AXqzAjiGk3Cxcx/53iIiAzTMJQN23iu3mS8bHpbPmxEcSglbUiMvYTQpXAxKQE9jIURR56r6QjD1
+Cslf1uDTebRg0syu0J/euIyG6ciR2eHSxJXh1dJSRqPCHtFQ8HVxQ4E3Vp/v194X+VwWgcc/yPtO
+N1s4JyqPrYkvSUqaG6JDoXZ7gSI1MkKnSF90SVbFqM59lHRZPGwy8hwfulDz5160bsLClwebk/6B
+/w61ngs0oqglamEc8yy2vp366+f1ifFDLYkxnTXb5oduhYIgfwD0+8wQUcC9ZQAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="34f39b8e-17f8-4ca0-a85e-7229b907c435"
+		isrooted="True"
+		name="SavePasswordForFtpTechmatrixCoJp"
+		refpath="/form[@title='Save password for ftp.techmatrix.co.jp?']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="f8cafd86-b04a-47a8-a281-6819228c6fab"
+			name="Never"
+			refimgid="ad21c815-e9df-4cf5-ae8a-c2c2ea18c95b"
+			refpath="/form[@title>'Save password for ftp.tec']/element/container/container/container/container[2]/button[@accessiblename='Never']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'Save password for ftp.tec']/element[@accessiblename&gt;'Save password for ftp.tec']/container/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']/?/?/button[@accessiblename='Never']
+			</item>
+			<basepath>
+				/form[@title&gt;'Save password for ftp.tec']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANfSURBVDhPrZJdTFJhGMfP+ryoObNQs1qulaVb
+H8407PAlBzU0DBAslUjWtFWWXbS8yWgrymiZXmQ5FbHC1oeUmTpDsyxIBNtatshzyIo2XR/LSAOE
+89ThyEVbt/23Z+/N+/v93+19kP8WNYLMUickLHRIM9b1Z3HKe7axWk2ZLKtJsHXIhKV2PBYwT9kF
+KLMmZXWYHEFmh7CZBOEDCQnRfdncXU6ZsIPIzXxHSNPdhFgwTezA/CM5aZO4iOcayeY+svCZ+8rW
+rozlcrlzQjiCUPDCO0L2zjfSDLszN9OLS9NJXCwAXIyRhASbHhHzpvEcrm9ExJnCt7NGrRnJ+zWb
+VjNCOIJINfnrtGXiDqtM4KXagRIALskAvGD7NHFY8pEo4TvxvWyCULFxQsXCiSK0/W1eKue3Wj2L
+FsRd2Fku0+Q5DfkY+VqEgaO0GKy116H1hp003HrptbQZPe/uHPJ8vYF5Jm5zPD+N7LFPBrSqT5sc
+TQtWnJcZE2t3u0uPiqA/hwfmS1dBq3NC8ZUJKKp1Q8U1Fzx70gaTA7vAP4BRk+Yd72b1DTZsXksL
+YrSywVidyo9WF4J+TxY0t9hoOPucG4SVbsir/gH6Lgd8sx8E0pYOpD0tMP4QdQw0pmykBVFa6YsV
+elUgrrEIlGcUcME4DKrLbsii4KAgt8oNdQ+c8MV2eEZgSyPHulHC2pS8iRZEaiUdMXrl1HLdHohv
+UJLnTH1TR66O+4PNQXh//ZdA51Pz1OQLpZ+08YMC39hD1PK8eUs8LWBUSU5F65WuaJ0SljYpQXS3
+0l/e1UOeuIfD8dZRuNLdT76yarw+e3aAgoOC75972XVDLVtjaEFEbR4zqlnZE6lT+KiB5XoVbDCU
+AXqzAjiGk3Cxcx/53iIiAzTMJQN23iu3mS8bHpbPmxEcSglbUiMvYTQpXAxKQE9jIURR56r6QjD1
+Cslf1uDTebRg0syu0J/euIyG6ciR2eHSxJXh1dJSRqPCHtFQ8HVxQ4E3Vp/v194X+VwWgcc/yPtO
+N1s4JyqPrYkvSUqaG6JDoXZ7gSI1MkKnSF90SVbFqM59lHRZPGwy8hwfulDz5160bsLClwebk/6B
+/w61ngs0oqglamEc8yy2vp366+f1ifFDLYkxnTXb5oduhYIgfwD0+8wQUcC9ZQAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

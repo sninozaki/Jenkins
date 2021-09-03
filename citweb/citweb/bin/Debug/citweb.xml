@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>citweb</name>
+    </assembly>
+    <members>
+        <member name="T:citweb.citwebRepository">
+            <summary>
+            The class representing the citwebRepository element repository.
+            </summary>
+        </member>
+        <member name="M:citweb.citwebRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the citwebRepository element repository.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepository.千葉工業大学GoogleChrome">
+            <summary>
+            The 千葉工業大学GoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepository.SavePasswordForFtpTechmatrixCoJp">
+            <summary>
+            The SavePasswordForFtpTechmatrixCoJp folder.
+            </summary>
+        </member>
+        <member name="T:citweb.citwebRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:citweb.citwebRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:citweb.citwebRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.ApplicationUnderTestAppFolder.大学案内">
+            <summary>
+            The 大学案内 item.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.ApplicationUnderTestAppFolder.大学案内Info">
+            <summary>
+            The 大学案内 item info.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.ApplicationUnderTestAppFolder.大学案内1">
+            <summary>
+            The 大学案内1 item.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.ApplicationUnderTestAppFolder.大学案内1Info">
+            <summary>
+            The 大学案内1 item info.
+            </summary>
+        </member>
+        <member name="T:citweb.citwebRepositoryFolders.千葉工業大学GoogleChromeAppFolder">
+            <summary>
+            The 千葉工業大学GoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:citweb.citwebRepositoryFolders.千葉工業大学GoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new 千葉工業大学GoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.千葉工業大学GoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.千葉工業大学GoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.千葉工業大学GoogleChromeAppFolder.Element804915744">
+            <summary>
+            The Element804915744 item.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.千葉工業大学GoogleChromeAppFolder.Element804915744Info">
+            <summary>
+            The Element804915744 item info.
+            </summary>
+        </member>
+        <member name="T:citweb.citwebRepositoryFolders.SavePasswordForFtpTechmatrixCoJpAppFolder">
+            <summary>
+            The SavePasswordForFtpTechmatrixCoJpAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:citweb.citwebRepositoryFolders.SavePasswordForFtpTechmatrixCoJpAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SavePasswordForFtpTechmatrixCoJp  folder.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.SavePasswordForFtpTechmatrixCoJpAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.SavePasswordForFtpTechmatrixCoJpAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.SavePasswordForFtpTechmatrixCoJpAppFolder.Never">
+            <summary>
+            The Never item.
+            </summary>
+        </member>
+        <member name="P:citweb.citwebRepositoryFolders.SavePasswordForFtpTechmatrixCoJpAppFolder.NeverInfo">
+            <summary>
+            The Never item info.
+            </summary>
+        </member>
+        <member name="T:citweb.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:citweb.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the citwebRepository repository.
+            </summary>
+        </member>
+        <member name="M:citweb.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:citweb.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:citweb.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:citweb.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:citweb.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:citweb.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:citweb.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:citweb.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the citwebRepository repository.
+            </summary>
+        </member>
+        <member name="M:citweb.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:citweb.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:citweb.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:citweb.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:citweb.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:citweb.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:citweb.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:citweb.Recording1.repo">
+            <summary>
+            Holds an instance of the citwebRepository repository.
+            </summary>
+        </member>
+        <member name="M:citweb.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:citweb.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:citweb.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:citweb.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:citweb.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:citweb.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
